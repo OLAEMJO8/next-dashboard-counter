@@ -5,11 +5,10 @@ import { usePathname } from "next/navigation";
 
 interface Prop {
   path: string;
-  icon: JSX.Element;
   title: string;
   subTitle: string;
 }
-export const SideBarMenuItem = ({ path, icon, title, subTitle }: Prop) => {
+export const SideBarMenuItem = ({ path, title, subTitle }: Prop) => {
   const currentPath = usePathname();
 
   return (
