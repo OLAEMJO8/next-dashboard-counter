@@ -8,7 +8,9 @@ export default function DashboardLayout({
   return (
     <>
       <Sidebar />
-      <main className="flex flex-col items-center p-24">{children}</main>
+      <main className="flex flex-col items-center p-24 flex-1 ml-64">
+        {children}
+      </main>
     </>
   );
 }
