@@ -1,17 +1,15 @@
 import React from "react";
 import { SideBarMenuItem } from "./SideBarMenuItem";
-import { IoBrowsersOutline, IoCalculator } from "react-icons/io5";
 
 const menuItems = [
   {
     path: "/dashboard/main",
-    icon: <IoBrowsersOutline size={40} />,
     title: "Dashboard",
     subTitle: "Visualizacion",
   },
   {
     path: "/dashboard/counter",
-    icon: <IoCalculator size={40} />,
+
     title: "Counter",
     subTitle: "Contador",
   },
